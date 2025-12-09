@@ -1,4 +1,4 @@
-:root{
+ :root{
   --accent:#099da1;
   --text:#222;
   --muted:#666;
@@ -29,3 +29,10 @@ body{margin:0;color:var(--text);line-height:1.45;background:#fff}
 .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:var(--max-width);margin:24px auto;padding:0 18px}
 .card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
 .cardIcon i{font-size:26px;color:var(--accent)}
+
+/* book grid */
+.bookContainer{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;max-width:var(--max-width);margin:20px auto;padding:0 18px}
+.book-card{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,0.06);display:flex;flex-direction:column}
+.book-img{width:100%;height:auto;display:block}
+.book-info{padding:12px}
+.price-changed s{color:var(--muted);margin-left:8px}
