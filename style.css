@@ -1,4 +1,4 @@
- :root{
+:root{
   --accent:#099da1;
   --text:#222;
   --muted:#666;
@@ -24,3 +24,8 @@ body{margin:0;color:var(--text);line-height:1.45;background:#fff}
 .welcomeText h1{font-size:32px;margin:0}
 .accent{color:var(--accent)}
 .welcome-image img{max-width:420px;width:100%;height:auto}
+
+/* services */
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:var(--max-width);margin:24px auto;padding:0 18px}
+.card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.cardIcon i{font-size:26px;color:var(--accent)}
