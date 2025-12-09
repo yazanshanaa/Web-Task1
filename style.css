@@ -1,4 +1,4 @@
-:root{
+  :root{
   --accent:#099da1;
   --text:#222;
   --muted:#666;
@@ -41,3 +41,11 @@ body{margin:0;color:var(--text);line-height:1.45;background:#fff}
 .footer-container{background:#f9f9fb;padding:28px 18px}
 .footer-grid{max-width:var(--max-width);margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
 .footer-bottom{text-align:center;color:var(--muted);padding:8px 0}
+
+/* responsive */
+@media (max-width:800px){
+  .welcome{flex-direction:column;text-align:center}
+  .navigation{display:none;flex-direction:column;background:#fff;padding:10px;position:absolute;top:68px;right:12px;border-radius:8px;box-shadow:0 8px 18px rgba(0,0,0,0.08)}
+  .navigation.open{display:flex}
+  .nav-toggle{display:block}
+}
